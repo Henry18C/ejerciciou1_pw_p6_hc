@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juego{
+
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 300px repeat(3,50px) 50px 50px;
+    background-color: aqua;
+   
+
+}
+
+img{
+
+    border: solid yellow;
+}
+
+
+button {
+    grid-column: span 1;
+    background-color: blanchedalmond;
+}
+
+
+.display0{
+    grid-column: span 1;
+    border-radius: 10px;
+    border: solid blue;
+}
+
+.display1{
+    grid-column: span 1;
+}
